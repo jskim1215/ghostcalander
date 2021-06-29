@@ -20,7 +20,7 @@ title                    : "Ghost Calander"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Ghost Calander"
-description              : "Self-Study of Algorithm Trading"
+description              : "Pay it Forward를 위한 프로덕트 개발 여정 기록 페이지"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
