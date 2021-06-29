@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-06-29T23:02:01+09:00</updated><id>/feed.xml</id><title type="html">Ghost Calander</title><subtitle>Pay it Forward를 위한 프로덕트 개발 여정 기록 페이지</subtitle><author><name>Ghost Calander</name></author><entry><title type="html">1일차 : 일정 계획 세팅</title><link href="/calander/overall-plan/" rel="alternate" type="text/html" title="1일차 : 일정 계획 세팅" /><published>2021-06-29T00:00:00+09:00</published><updated>2021-06-29T00:00:00+09:00</updated><id>/calander/overall-plan</id><content type="html" xml:base="/calander/overall-plan/">&lt;h1 id=&quot;오늘-할-일&quot;&gt;오늘 할 일&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/73425926/123807525-e3490780-d92a-11eb-9e96-78cc3bb65a9e.jpg&quot; alt=&quot;06-29-overall-plan&quot; /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;github-page-준비하기&quot;&gt;Github page 준비하기&lt;/h2&gt;
-&lt;p&gt;저번 방학 때, 자동매매 프로그램 개발 과정을 기록하겠다고 만들었다가 일주일도 안되서 버린 페이지를 재활용해서 블로그를 만들었다.
-따라 할 사람들은 &lt;a href=&quot;https://ansohxxn.github.io/categories/blog&quot;&gt;Jekyll/Github 블로그만들기&lt;/a&gt;를 참고해서 따라하면 된다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-06-29T23:37:29+09:00</updated><id>/feed.xml</id><title type="html">Ghost Calander</title><subtitle>Pay it Forward를 위한 프로덕트 개발 여정 기록 페이지</subtitle><author><name>Ghost Calander</name></author><entry><title type="html">예상 프로덕트 개발 순서</title><link href="/calander/summary/" rel="alternate" type="text/html" title="예상 프로덕트 개발 순서" /><published>2021-06-29T00:00:00+09:00</published><updated>2021-06-29T00:00:00+09:00</updated><id>/calander/summary</id><content type="html" xml:base="/calander/summary/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/73425926/123816433-45f1d180-d932-11eb-8fb1-867f039bee7c.jpg&quot; alt=&quot;06-29-summary&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;러프하게-프로덕트-개발-계획-세우기&quot;&gt;러프하게 프로덕트 개발 계획 세우기&lt;/h2&gt;
-&lt;p&gt;뭘 할 줄 모르겠을 때 가장 효율이 좋은 행동, 그건 모방이라고 생각한다. 우연히 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;패스트벤쳐스 TextBook 프로그램&lt;/code&gt; 단체 카카오톡 방에서 처음 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Disquiet&lt;/code&gt;이라는 사이트를 접하게 됬고, 여기서 매거진 파트에서 프로덕트 개발 여정을 기록한 것을 보고 나랑 비슷한 행동을 했고, 이미 투자까지 받을 정도의 결과를 보여줘서 나의 모방 상대로 정했다.&lt;/p&gt;</content><author><name>Ghost Calander</name></author><category term="Calander" /><category term="기획" /><summary type="html">뭘 할 줄 모르겠을 때 가장 효율이 좋은 행동, 그건 모방</summary></entry><entry><title type="html">1일차 : 일정 계획 세팅</title><link href="/calander/daily/" rel="alternate" type="text/html" title="1일차 : 일정 계획 세팅" /><published>2021-06-29T00:00:00+09:00</published><updated>2021-06-29T00:00:00+09:00</updated><id>/calander/daily</id><content type="html" xml:base="/calander/daily/">&lt;h1 id=&quot;오늘-할-일&quot;&gt;오늘 할 일&lt;/h1&gt;
+&lt;h2 id=&quot;기획&quot;&gt;기획&lt;/h2&gt;
+&lt;h3 id=&quot;제품-개발의-내적-동기&quot;&gt;제품 개발의 내적 동기&lt;/h3&gt;
+&lt;h3 id=&quot;제품-아이디어-정리&quot;&gt;제품 아이디어 정리&lt;/h3&gt;
+&lt;h3 id=&quot;가설-및-가설-검증-전략-세팅&quot;&gt;가설 및 가설 검증 전략 세팅&lt;/h3&gt;
+
+&lt;h2 id=&quot;개발&quot;&gt;개발&lt;/h2&gt;
+&lt;h3 id=&quot;최소한의-기능-정리&quot;&gt;최소한의 기능 정리&lt;/h3&gt;
+&lt;h3 id=&quot;기능-실현을-위한-노코드-툴-list화&quot;&gt;기능 실현을 위한 노코드 툴 List화&lt;/h3&gt;
+&lt;h3 id=&quot;스토리보드--와이어프레임-작성&quot;&gt;스토리보드 &amp;amp; 와이어프레임 작성&lt;/h3&gt;
+&lt;h3 id=&quot;제품-제작&quot;&gt;제품 제작&lt;/h3&gt;
+&lt;h2 id=&quot;마케팅--검증&quot;&gt;마케팅 &amp;amp; 검증&lt;/h2&gt;
+&lt;h3 id=&quot;홍보물-제작-및-홍보채널-list화&quot;&gt;홍보물 제작 및 홍보채널 List화&lt;/h3&gt;
+&lt;h3 id=&quot;베타-테스트&quot;&gt;베타 테스트&lt;/h3&gt;
+&lt;h3 id=&quot;가설-검증-데이터-결과-정리&quot;&gt;가설 검증 데이터 결과 정리&lt;/h3&gt;</content><author><name>Ghost Calander</name></author><category term="Calander" /><category term="기획" /><summary type="html">웹 형 어플리케이션 제작을 위한 A to Z 가이드라인</summary></entry><entry><title type="html">1일차 : 일정 계획 세팅</title><link href="/calander/daily/" rel="alternate" type="text/html" title="1일차 : 일정 계획 세팅" /><published>2021-06-29T00:00:00+09:00</published><updated>2021-06-29T00:00:00+09:00</updated><id>/calander/daily</id><content type="html" xml:base="/calander/daily/">&lt;h1 id=&quot;오늘-할-일&quot;&gt;오늘 할 일&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/73425926/123807525-e3490780-d92a-11eb-9e96-78cc3bb65a9e.jpg&quot; alt=&quot;06-29-overall-plan&quot; /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;github-page-준비하기&quot;&gt;Github page 준비하기&lt;/h2&gt;
 &lt;p&gt;저번 방학 때, 자동매매 프로그램 개발 과정을 기록하겠다고 만들었다가 일주일도 안되서 버린 페이지를 재활용해서 블로그를 만들었다.
