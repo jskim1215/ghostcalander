@@ -10,50 +10,29 @@
       </li>
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
-        <span class="nav__sub-title">Algorithm Trading</span>
+        <span class="nav__sub-title">Product</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
-                <!--Cpp 카테고리 글들을 모아둔 페이지인 /tags/cpp 주소의 글로 링크 연결-->
+                <!--IOT스위치 카테고리 글들을 모아둔 페이지인 /categories/IOT스위치 주소의 글로 링크 연결-->
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
-                {% for tag in site.tags %}
-                    {% if tag[0] == "Factor" %}
-                        <li><a href="/tags/factor" class="">Factor ({{tag[1].size}})</a></li>
+                {% for category in site.categories %}
+                    {% if category[0] == "Switch" %}
+                        <li><a href="/categories/Switch" class="">IOT 스위치 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
-                {% for tag in site.tags %}
-                    {% if tag[0] == "Valuation" %}
-                        <li><a href="/tags/Valuation" class="">Valuation ({{tag[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for tag in site.tags %}
-                    {% if tag[0] == "Filter" %}
-                        <li><a href="/tags/filter" class="">Filter ({{tag[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for tag in site.tags %}
-                    {% if tag[0] == "Position" %}
-                        <li><a href="/tags/position" class="">Position ({{tag[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for tag in site.tags %}
-                    {% if tag[0] == "BackTest" %}
-                        <li><a href="/tags/Backtest" class="">Back Testing ({{tag[1].size}})</a></li>
+                {% for category in site.categories %}
+                    {% if category[0] == "Calander" %}
+                        <li><a href="/categories/Calander" class="">Ghost Calander ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
         <span class="nav__sub-title">Insight</span>
             <ul>
-                {% for tag in site.tags %}
-                    {% if tag[0] == "Book" %}
-                        <li><a href="/tags/book" class="">Book Review ({{tag[1].size}})</a></li>
+                {% for category in site.categories %}
+                    {% if category[0] == "Book" %}
+                        <li><a href="/categories/book" class="">Book Review ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
