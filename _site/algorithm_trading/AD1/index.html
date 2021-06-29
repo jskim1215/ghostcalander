@@ -1,0 +1,845 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.22.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>돈키언 채널(Donchian Channel) (작성중) - Ghost Calander</title>
+<meta name="description" content="책『터틀의 방식』에 등장하는 추세추종 트레이딩 전략">
+
+
+  <meta name="author" content="Ghost Calander">
+  
+  <meta property="article:author" content="Ghost Calander">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Ghost Calander">
+<meta property="og:title" content="돈키언 채널(Donchian Channel) (작성중)">
+<meta property="og:url" content="/algorithm_trading/AD1/">
+
+
+  <meta property="og:description" content="책『터틀의 방식』에 등장하는 추세추종 트레이딩 전략">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2021-03-16T00:00:00+09:00">
+
+
+
+  <meta property="article:modified_time" content="2021-03-16T00:00:00+09:00">
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="/algorithm_trading/AD1/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Ghost Calander",
+      "url": "/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Ghost Calander Feed">
+
+
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        TeX: {
+          equationNumbers: {
+            autoNumber: "AMS"
+          }
+        },
+        tex2jax: {
+        inlineMath: [ ['$', '$'] ],
+        displayMath: [ ['$$', '$$'] ],
+        processEscapes: true,
+      }
+    });
+    MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+          alert("Math Processing Error: "+message[1]);
+        });
+    MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+          alert("Math Processing Error: "+message[1]);
+        });
+    </script>
+    <script type="text/javascript" async
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon.ico/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon.ico/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon.ico/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon.ico/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicon.ico/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon.ico/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicon.ico/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon.ico/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon.ico/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon.ico/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon.ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon.ico/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon.ico/favicon-16x16.png">
+<link rel="manifest" href="/assets/favicon.ico/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/assets/favicon.ico/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<!-- end custom head snippets -->
+
+  </head>
+  
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        TeX: {
+          equationNumbers: {
+            autoNumber: "AMS"
+          }
+        },
+        tex2jax: {
+        inlineMath: [ ['$', '$'] ],
+        displayMath: [ ['$$', '$$'] ],
+        processEscapes: true,
+      }
+    });
+    MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+          alert("Math Processing Error: "+message[1]);
+        });
+    MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+          alert("Math Processing Error: "+message[1]);
+        });
+    </script>
+    <script type="text/javascript" async
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+  
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/chart.png" alt="Ghost Calander"></a>
+        
+        <a class="site-title" href="/">
+          Ghost Calander
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/tags/">Tag Archive</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/">Category</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/categories/#algorithm_trading" itemprop="item"><span itemprop="name">Algorithm_trading</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">돈키언 채널(Donchian Channel) (작성중)</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Ghost Calander</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Pay it Forward를 위한 프로덕트 개발 여정 기록 페이지</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Korea Univ.</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/jskim1215" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+
+  
+    
+
+<nav class="nav__list">
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items" id="category_tag_menu">
+      <!--전체 글 수-->
+      <li>
+            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">5</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
+      </li>
+      <li>
+        <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
+        <span class="nav__sub-title">Algorithm Trading</span>
+            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+            <ul>
+                <!--Cpp 카테고리 글들을 모아둔 페이지인 /tags/cpp 주소의 글로 링크 연결-->
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                
+                    
+                        <li><a href="/tags/factor" class="">Factor (2)</a></li>
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                        <li><a href="/tags/position" class="">Position (1)</a></li>
+                    
+                
+            </ul>
+            <ul>
+                
+                    
+                
+                    
+                        <li><a href="/tags/Backtest" class="">Back Testing (2)</a></li>
+                    
+                
+                    
+                
+            </ul>
+        <span class="nav__sub-title">Insight</span>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+      </li>
+  </ul>
+</nav>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="돈키언 채널(Donchian Channel) (작성중)">
+    <meta itemprop="description" content="책『터틀의 방식』에 등장하는 추세추종 트레이딩 전략">
+    <meta itemprop="datePublished" content="2021-03-16T00:00:00+09:00">
+    <meta itemprop="dateModified" content="2021-03-16T00:00:00+09:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">돈키언 채널(Donchian Channel) (작성중)
+</h1>
+          
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-03-16">March 16, 2021</time></p>
+
+ 
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#prelude--추세-추종-전략이란">Prelude : 추세 추종 전략이란?</a></li><li><a href="#1-돈키언-채널">1. 돈키언 채널</a><ul><li><a href="#정의">정의</a></li><li><a href="#코드">코드</a><ul><li><a href="#a-반복문을-활용한-함수-정의">a. 반복문을 활용한 함수 정의</a></li><li><a href="#b-list에-담아서-max--min-함수-처리하기">b. List에 담아서 Max / min 함수 처리하기</a></li></ul></li><li><a href="#연산-속도-비교-결과">연산 속도 비교 결과</a></li></ul></li><li><a href="#2-돈키언-채널-돌파">2. 돈키언 채널 돌파</a><ul><li><a href="#정의-1">정의</a></li><li><a href="#코드-1">코드</a></li><li><a href="#결과값-그래프">결과값 (그래프)</a><ul><li><a href="#시가총액-상위-중-5개">시가총액 상위 중 5개</a></li><li><a href="#시가총액-하위-중-3개">시가총액 하위 중 3개</a></li></ul></li><li><a href="#피드백">피드백</a></li></ul></li></ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="prelude--추세-추종-전략이란">Prelude : 추세 추종 전략이란?</h2>
+<p><code class="language-plaintext highlighter-rouge">추세 추종 전략</code>이란 차트 상의 데이터를 가지고 주가의 이동 방향에 대해 판단해 진입하는 트레이딩 방법 중 하나다. 주가가 중장기적인 저항대를 뚫고 올라갈 때 매수에 동참해 추세가 꺾일 때까지 보유하는 중장기적인 트레이딩 전략이다. 이 전략의 핵심은 비쌀 때 사서, 더 비싸지기를 기다리는 것이라고 할 수 있다.</p>
+
+<p><code class="language-plaintext highlighter-rouge">추세 추종 전략의 단점</code>은 시장의 $\frac{2}{3}$ 이상은 추세적이지 않다는 것이다. 즉, 이 전략의 핵심은 오르면 떨어지고, 떨어지면 다시 반등하는 횡보장의 리스크를 어떻게 처리해주냐에 달려있다. 따라서, 장기 추세 추종 전략의 경우, 한 번 트레이딩에서 큰 수익을 얻어 전체적인 수익을 챙기는 방향으로 전략을 구사해야한다.<br />
+(일반적으로 <code class="language-plaintext highlighter-rouge">추세 추종 전략</code>의 승률은 <code class="language-plaintext highlighter-rouge">30%</code>대로 상당히 낮은 편이다)</p>
+
+<h2 id="1-돈키언-채널">1. 돈키언 채널</h2>
+<h3 id="정의">정의</h3>
+<p>일정 기간 N 동안의 고점의 최대값을 상선, 저점의 최소값을 하선으로 그린 채널 지표다. 채널이란, 특정 중심선을 기준으로 상하단에 일정한 폭의 범위를 설정해놓은 구간을 말한다.</p>
+
+<h3 id="코드">코드</h3>
+<p><strong>기본 구조</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">시간 t의 돈키언 채널값</code> : 시간 t에서 <code class="language-plaintext highlighter-rouge">t-N</code>에서 <code class="language-plaintext highlighter-rouge">t-1</code>까지의 데이터 사용</li>
+</ul>
+
+<h4 id="a-반복문을-활용한-함수-정의">a. 반복문을 활용한 함수 정의</h4>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">donchian_max</span><span class="p">(</span><span class="n">df</span><span class="p">,</span><span class="n">t</span><span class="p">,</span><span class="n">N</span><span class="p">):</span>   <span class="c1"># t 는 시점 (건들지 말 것!)
+</span>  <span class="nb">max</span><span class="o">=</span><span class="n">df</span><span class="p">.</span><span class="n">iloc</span><span class="p">[(</span><span class="n">t</span><span class="o">-</span><span class="n">N</span><span class="p">),</span><span class="mi">2</span><span class="p">]</span>      <span class="c1"># N은 기간 (N을 조정할 것!)
+</span>  <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">N</span><span class="p">):</span>
+      <span class="k">if</span> <span class="n">df</span><span class="p">.</span><span class="n">iloc</span><span class="p">[(</span><span class="n">t</span><span class="o">-</span><span class="n">N</span><span class="o">+</span><span class="n">i</span><span class="p">),</span><span class="mi">2</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="nb">max</span><span class="p">:</span>
+          <span class="nb">max</span> <span class="o">=</span> <span class="n">df</span><span class="p">.</span><span class="n">iloc</span><span class="p">[(</span><span class="n">t</span> <span class="o">-</span> <span class="n">N</span> <span class="o">+</span> <span class="n">i</span><span class="p">),</span> <span class="mi">2</span><span class="p">]</span>
+  <span class="k">return</span> <span class="nb">max</span>
+
+<span class="k">def</span> <span class="nf">donchian_min</span><span class="p">(</span><span class="n">df</span><span class="p">,</span><span class="n">t</span><span class="p">,</span><span class="n">N</span><span class="p">):</span>
+  <span class="nb">min</span><span class="o">=</span><span class="n">df</span><span class="p">.</span><span class="n">iloc</span><span class="p">[(</span><span class="n">t</span><span class="o">-</span><span class="n">N</span><span class="p">),</span><span class="mi">3</span><span class="p">]</span>
+  <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">N</span><span class="p">):</span>
+      <span class="k">if</span> <span class="n">df</span><span class="p">.</span><span class="n">iloc</span><span class="p">[(</span><span class="n">t</span><span class="o">-</span><span class="n">N</span><span class="o">+</span><span class="n">i</span><span class="p">),</span><span class="mi">3</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="nb">min</span><span class="p">:</span>
+        <span class="nb">min</span> <span class="o">=</span> <span class="n">df</span><span class="p">.</span><span class="n">iloc</span><span class="p">[(</span><span class="n">t</span><span class="o">-</span><span class="n">N</span><span class="o">+</span><span class="n">i</span><span class="p">),</span><span class="mi">3</span><span class="p">]</span>
+  <span class="k">return</span> <span class="nb">min</span>
+</code></pre></div></div>
+<h4 id="b-list에-담아서-max--min-함수-처리하기">b. List에 담아서 Max / min 함수 처리하기</h4>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">donchian_max</span><span class="p">(</span><span class="n">df</span><span class="p">,</span><span class="n">t</span><span class="p">,</span><span class="n">N</span><span class="p">):</span>   <span class="c1"># t 는 시점 (건들지 말 것!)
+</span>  <span class="n">box</span><span class="o">=</span><span class="p">[]</span>    <span class="c1"># N은 기간 (N을 조정할 것!)
+</span>  <span class="n">max_value</span><span class="o">=</span><span class="mi">0</span>
+  <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">N</span><span class="p">):</span>
+    <span class="n">box</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">df</span><span class="p">.</span><span class="n">iloc</span><span class="p">[(</span><span class="n">t</span><span class="o">-</span><span class="n">N</span><span class="o">+</span><span class="n">i</span><span class="p">),</span><span class="mi">2</span><span class="p">])</span> <span class="c1"># 데이터 프레임 카운팅 주의
+</span>  <span class="n">max_value</span><span class="o">=</span><span class="nb">max</span><span class="p">(</span><span class="n">box</span><span class="p">)</span>
+  <span class="k">return</span> <span class="n">max_value</span>
+
+<span class="k">def</span> <span class="nf">donchian_min</span><span class="p">(</span><span class="n">df</span><span class="p">,</span><span class="n">t</span><span class="p">,</span><span class="n">N</span><span class="p">):</span>
+  <span class="n">box</span><span class="o">=</span><span class="p">[]</span>
+  <span class="n">min_value</span><span class="o">=</span><span class="mi">0</span>
+  <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">N</span><span class="p">):</span>
+      <span class="n">box</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">df</span><span class="p">.</span><span class="n">iloc</span><span class="p">[(</span><span class="n">t</span><span class="o">-</span><span class="n">N</span><span class="o">+</span><span class="n">i</span><span class="p">),</span><span class="mi">3</span><span class="p">])</span> <span class="c1"># 데이터 프레임 카운팅 주의
+</span>  <span class="n">min_value</span><span class="o">=</span><span class="nb">min</span><span class="p">(</span><span class="n">box</span><span class="p">)</span>
+  <span class="k">return</span> <span class="n">min_value</span>
+</code></pre></div></div>
+
+<h3 id="연산-속도-비교-결과">연산 속도 비교 결과</h3>
+
+<p><code class="language-plaintext highlighter-rouge">Bitcoin 2월 1분봉</code> 데이터를 가지고 10회 연산 평균값을 비교했을 때 <code class="language-plaintext highlighter-rouge">방법 b</code>의 함수가 속도가 더 빠르므로 사용하기로 결정했다.</p>
+<ul>
+  <li>a : 21.84초 / 1회</li>
+  <li>b : 18.22초 / 1회</li>
+</ul>
+
+<h2 id="2-돈키언-채널-돌파">2. 돈키언 채널 돌파</h2>
+<h3 id="정의-1">정의</h3>
+<p><code class="language-plaintext highlighter-rouge">돈키언 채널 돌파</code>는 특정 기간의 최고가를 갱신했다는 점이 상승 추세를 반영해준다는 개념에서 시작한다. 실 적용에 있어 매수 포지션만 가능하므로 상단 돌파 추세와 관련된 필터를 적용하는 경우가 많다. 대표적으로 이동평균선을 활용한 추세 포트폴리오 필터가 사용된다.</p>
+
+<p>일반적으로 20일선을 기준으로 상단 돌파시 매수, 하단 돌파시 매도를 하는 원칙이다. 하지만 거래 대상이 <code class="language-plaintext highlighter-rouge">암호화폐 1분봉</code>을 기준으로 하고 있으므로 시간 간격을 여러 수치를 대입해보면서 해석을 진행해보려고 한다. 추가로 일정 시간 간격 동안 상선이 같은 값을 유지하고 있는 조건을 추가하려고 한다.</p>
+
+<h3 id="코드-1">코드</h3>
+<p><strong>기본 구조</strong></p>
+<ul>
+  <li>60분 이상 상선 유지</li>
+  <li>60분, 240분 정배열
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 카운팅 쉽게 하기 위해 앞뒤 각각 100개 잘라내버리기
+</span>  <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="n">num_index</span><span class="o">-</span><span class="mi">100</span><span class="p">):</span>
+      <span class="k">if</span> <span class="n">df</span><span class="p">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span><span class="o">&gt;</span><span class="n">df</span><span class="p">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="mi">6</span><span class="p">]</span> <span class="ow">and</span> <span class="n">df</span><span class="p">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span><span class="o">&gt;</span><span class="n">df</span><span class="p">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span> <span class="ow">and</span> <span class="n">df</span><span class="p">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="mi">6</span><span class="p">]</span><span class="o">&gt;</span><span class="n">df</span><span class="p">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">6</span><span class="p">]:</span>
+          <span class="k">if</span> <span class="n">df</span><span class="p">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">7</span><span class="p">]</span><span class="o">&lt;</span><span class="n">df</span><span class="p">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="mi">4</span><span class="p">]:</span>
+              <span class="n">target_value</span> <span class="o">=</span> <span class="n">df</span><span class="p">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">7</span><span class="p">]</span>
+              <span class="n">target_percent_list</span><span class="o">=</span><span class="p">[]</span>
+          <span class="k">else</span><span class="p">:</span>
+              <span class="k">pass</span>
+      <span class="k">else</span><span class="p">:</span>
+          <span class="k">pass</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h3 id="결과값-그래프">결과값 (그래프)</h3>
+<p>아직 <code class="language-plaintext highlighter-rouge">Valuation</code>에 대한 이해와 코드 공부가 부족하여 <code class="language-plaintext highlighter-rouge">Target</code> 가격에 대한 <code class="language-plaintext highlighter-rouge">앞뒤 60분</code>에 대한 움직임을 그래프화해서 표현해보려고 했다.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">31</span><span class="p">):</span>
+                    <span class="n">target_percent_value</span><span class="o">=</span><span class="n">df</span><span class="p">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">60</span><span class="o">+</span><span class="mi">4</span><span class="o">*</span><span class="n">k</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span><span class="o">/</span><span class="n">target_value</span>
+                    <span class="n">target_percent_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">target_percent_value</span><span class="p">)</span>
+                <span class="n">new_dict</span><span class="p">[</span><span class="n">df</span><span class="p">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="mi">0</span><span class="p">]]</span><span class="o">=</span><span class="n">target_percent_list</span>
+</code></pre></div></div>
+
+<h4 id="시가총액-상위-중-5개">시가총액 상위 중 5개</h4>
+<ol>
+  <li>Bitcoin
+<img src="https://user-images.githubusercontent.com/80079215/111861141-74552d80-898f-11eb-8ba4-123941b39639.png" alt="bitcoin_feb_ma%Donchian" /></li>
+  <li>
+    <p>ChainLink
+<img src="https://user-images.githubusercontent.com/80079215/111861159-8d5dde80-898f-11eb-8821-da5a0ddadef2.png" alt="chainlink_feb_ma%Donchian" /></p>
+  </li>
+  <li>Litecoin
+<img src="https://user-images.githubusercontent.com/80079215/111861164-92bb2900-898f-11eb-9520-7bf07d0f7811.png" alt="litecoin_feb_ma%Donchian" /></li>
+  <li>Ethereum
+<img src="https://user-images.githubusercontent.com/80079215/111861181-ac5c7080-898f-11eb-9b78-3367c73a1974.png" alt="Ethereum_feb_ma%Donchian" /></li>
+  <li>Polkadot
+  <img src="https://user-images.githubusercontent.com/80079215/111861177-a5356280-898f-11eb-8b9a-09ef6cc17643.png" alt="polkadot_feb_ma%Donchian" /></li>
+</ol>
+
+<h4 id="시가총액-하위-중-3개">시가총액 하위 중 3개</h4>
+<ol>
+  <li>
+    <p>Chiliz
+<img src="https://user-images.githubusercontent.com/80079215/111861186-b1b9bb00-898f-11eb-959e-1f54059d7959.png" alt="chiliz_feb_ma%Donchian" /></p>
+  </li>
+  <li>Refereum
+<img src="https://user-images.githubusercontent.com/80079215/111861191-bda57d00-898f-11eb-87ff-7afa5e26084b.png" alt="Refereum_feb_ma%Donchian" /></li>
+  <li>ThetaFuel
+<img src="https://user-images.githubusercontent.com/80079215/111861189-b7170580-898f-11eb-84aa-0878e8a228bd.png" alt="ThetaFuel_feb_ma%Donchian" /></li>
+</ol>
+
+<h3 id="피드백">피드백</h3>
+<p>시가총액이 높은 암호화폐 5종과 시가총액이 낮은 3종을 비교해본 결과 유의미한 결과값을 보이지 않아서 고민해봐야할 것 같다. 단기 추세를 나타내주기에는 돈키언 채널 자체가 어려움이 있지 않나 채널의 성격에 대해 다시 한 번 생각해봐야겠다.</p>
+
+<p>물론 <code class="language-plaintext highlighter-rouge">Chilliz</code>같은 케이스에서 유의미한 결과를 보여줬다. 그래서 펌핑이 나오는 순간을 캐치할 수 있는 알고리즘에 대해 공부를 해봐야할 것 같다.</p>
+
+<p>일반적으로 장기적 추세에 사용되는 <code class="language-plaintext highlighter-rouge">돈키언 채널</code>과 관련해서 시가총액이 높은 암호화폐에 대해 일봉으로 다시 한 번 비교 분석해봐야겠다.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/algorithm_trading/AE2/" class="pagination--pager" title="업비트 과거 거래 기록 크롤링
+">Previous</a>
+    
+    
+      <a href="/algorithm_trading/AE3/" class="pagination--pager" title="연산 속도 비교 코드 (작성중)
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/algorithm_trading/AE3/" rel="permalink">연산 속도 비교 코드 (작성중)
+</a>
+      
+    </h2>
+    
+    
+      <span class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> 2021 March 17</span>
+       
+    <br>
+    <span class="archive__item-excerpt" itemprop="description">효율적인 Back Testing을 위해 시간을 단축하기 위한 코드
+</span>
+    
+
+
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/algorithm_trading/AE2/" rel="permalink">업비트 과거 거래 기록 크롤링
+</a>
+      
+    </h2>
+    
+    
+      <span class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> 2021 March 15</span>
+       
+    <br>
+    <span class="archive__item-excerpt" itemprop="description">코인명 + 거래 데이터 불러오기까지
+</span>
+    
+
+
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/algorithm_trading/AA2/" rel="permalink">Average True Range란?
+</a>
+      
+    </h2>
+    
+    
+      <span class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> 2021 March 14</span>
+       
+    <br>
+    <span class="archive__item-excerpt" itemprop="description">변동성 지표 ATR
+</span>
+    
+
+
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/algorithm_trading/AA1/" rel="permalink">알고리즘 트레이딩의 구성요소
+</a>
+      
+    </h2>
+    
+    
+      <span class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> 2021 March 13</span>
+       
+    <br>
+    <span class="archive__item-excerpt" itemprop="description">책 [터틀의 방식]에 등장하는 알고리즘 매매 시스템의 구성요소 3가지
+</span>
+    
+
+
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Ghost Calander. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,17 @@
+I"�<h2 id="코드">코드</h2>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">time</span>
+<span class="n">start</span> <span class="o">=</span> <span class="n">time</span><span class="p">.</span><span class="n">time</span><span class="p">()</span>  <span class="c1"># 시작 시간 저장
+</span>
+<span class="c1"># 함수 입력칸
+</span>
+<span class="n">try_num</span><span class="o">=</span><span class="mi">0</span>
+<span class="n">time_box</span><span class="o">=</span><span class="p">[]</span>
+<span class="k">while</span> <span class="n">try_num</span><span class="o">&lt;</span><span class="mi">10</span><span class="p">:</span> <span class="c1"># 몇 번 반복할지
+</span>  <span class="c1"># 연산 코드
+</span>  <span class="n">testing_time</span><span class="o">=</span><span class="p">(</span><span class="n">time</span><span class="p">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">start</span><span class="p">)</span>
+  <span class="n">time_box</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">testing_time</span><span class="p">)</span>
+  <span class="n">try_num</span><span class="o">+=</span><span class="mi">1</span>
+
+<span class="n">average_testing_time</span><span class="o">=</span><span class="p">(</span><span class="nb">sum</span><span class="p">(</span><span class="n">all_time_data</span><span class="p">)</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">all_time_data</span><span class="p">))</span>
+</code></pre></div></div>
+:ET
