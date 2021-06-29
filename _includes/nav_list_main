@@ -17,14 +17,14 @@
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
                     {% if category[0] == "Switch" %}
-                        <li><a href="/categories/Switch" class="">IOT 스위치 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/switch" class="">IOT 스위치 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Calander" %}
-                        <li><a href="/categories/Calander" class="">Ghost Calander ({{category[1].size}})</a></li>
+                        <li><a href="/categories/calander" class="">Ghost Calander ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
