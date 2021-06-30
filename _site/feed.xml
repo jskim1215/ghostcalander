@@ -1,19 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-06-29T23:50:26+09:00</updated><id>/feed.xml</id><title type="html">Ghost Calander</title><subtitle>Pay it Forward를 위한 프로덕트 개발 여정 기록 페이지</subtitle><author><name>Ghost Calander</name></author><entry><title type="html">예상 프로덕트 개발 순서</title><link href="/calander/summary/" rel="alternate" type="text/html" title="예상 프로덕트 개발 순서" /><published>2021-06-29T00:00:00+09:00</published><updated>2021-06-29T00:00:00+09:00</updated><id>/calander/summary</id><content type="html" xml:base="/calander/summary/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/73425926/123816433-45f1d180-d932-11eb-8fb1-867f039bee7c.jpg&quot; alt=&quot;06-29-summary&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-06-30T22:04:41+09:00</updated><id>/feed.xml</id><title type="html">Ghost Calander</title><subtitle>Pay it Forward를 위한 프로덕트 개발 여정 기록 페이지</subtitle><author><name>Ghost Calander</name></author><entry><title type="html">2일차 : 기획 부분 마무리</title><link href="/calander/daily2/" rel="alternate" type="text/html" title="2일차 : 기획 부분 마무리" /><published>2021-06-30T00:00:00+09:00</published><updated>2021-06-30T00:00:00+09:00</updated><id>/calander/daily2</id><content type="html" xml:base="/calander/daily2/">&lt;h2 id=&quot;오늘-한-일&quot;&gt;오늘 한 일&lt;/h2&gt;
+&lt;h3 id=&quot;프로덕트-기획-마무리&quot;&gt;프로덕트 기획 마무리&lt;/h3&gt;
+&lt;h3 id=&quot;kpi-공부하기&quot;&gt;KPI 공부하기&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/73425926/123961408-4601d800-d9eb-11eb-890c-820c735df7bb.jpg&quot; alt=&quot;06-30-daily&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;기획&quot;&gt;기획&lt;/h2&gt;
 &lt;h3 id=&quot;제품-개발의-내적-동기&quot;&gt;제품 개발의 내적 동기&lt;/h3&gt;
 &lt;h3 id=&quot;제품-아이디어-정리&quot;&gt;제품 아이디어 정리&lt;/h3&gt;
 &lt;h3 id=&quot;가설-및-가설-검증-전략-세팅&quot;&gt;가설 및 가설 검증 전략 세팅&lt;/h3&gt;
-
-&lt;h2 id=&quot;개발&quot;&gt;개발&lt;/h2&gt;
-&lt;h3 id=&quot;최소한의-기능-정리&quot;&gt;최소한의 기능 정리&lt;/h3&gt;
-&lt;h3 id=&quot;기능-실현을-위한-노코드-툴-list화&quot;&gt;기능 실현을 위한 노코드 툴 List화&lt;/h3&gt;
-&lt;h3 id=&quot;스토리보드--와이어프레임-작성&quot;&gt;스토리보드 &amp;amp; 와이어프레임 작성&lt;/h3&gt;
-&lt;h3 id=&quot;제품-제작&quot;&gt;제품 제작&lt;/h3&gt;
-&lt;h2 id=&quot;마케팅--검증&quot;&gt;마케팅 &amp;amp; 검증&lt;/h2&gt;
-&lt;h3 id=&quot;홍보물-제작-및-홍보채널-list화&quot;&gt;홍보물 제작 및 홍보채널 List화&lt;/h3&gt;
-&lt;h3 id=&quot;베타-테스트&quot;&gt;베타 테스트&lt;/h3&gt;
-&lt;h3 id=&quot;가설-검증-데이터-결과-정리&quot;&gt;가설 검증 데이터 결과 정리&lt;/h3&gt;</content><author><name>Ghost Calander</name></author><category term="Calander" /><category term="기획" /><summary type="html">웹 형 어플리케이션 제작을 위한 A to Z 가이드라인</summary></entry><entry><title type="html">1일차 : 일정 계획 세팅</title><link href="/calander/daily/" rel="alternate" type="text/html" title="1일차 : 일정 계획 세팅" /><published>2021-06-29T00:00:00+09:00</published><updated>2021-06-29T00:00:00+09:00</updated><id>/calander/daily</id><content type="html" xml:base="/calander/daily/">&lt;h1 id=&quot;오늘-할-일&quot;&gt;오늘 할 일&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/73425926/123961502-65990080-d9eb-11eb-8ff7-1e9f6992e1f9.jpg&quot; alt=&quot;06-30-kpi&quot; /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;가설-검증의-분류&quot;&gt;가설 검증의 분류&lt;/h4&gt;
+&lt;p&gt;개인적으로 프로덕트 개발 과정을 정리하던 도중에 가설 검증이라는 단어가 크게 두 가지 용도로 사용 된다고 생각한다. 첫번째는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;내가 결정한 문제에 대한 가설&lt;/code&gt; 두번째는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;내가 생각한 해결책의 작동 결과에 대한 가설&lt;/code&gt;. 이 경우 첫번째는 MVP 제작 이전에 검증해야하고 두번째는 MVP 제작 이후에 검증 가능하다고 생각해서 시간의 차이가 필요하다고 생각했다.&lt;/p&gt;
+&lt;h4 id=&quot;내가-결정한-문제에-대한-가설-검증&quot;&gt;내가 결정한 문제에 대한 가설 검증&lt;/h4&gt;
+&lt;p&gt;내가 결정한 문제가 과연 얼마나 공감을 받을 수 있을지 아는 것이 중요하다고 생각해서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Disquiet&lt;/code&gt;에서 1위를 하고 있던 &lt;a href=&quot;https://www.dodatool.com/&quot;&gt;도다 툴&lt;/a&gt;을 활용해서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;창업가 레벨 테스트&lt;/code&gt;라는 것을 진행해보려고 한다.&lt;/p&gt;</content><author><name>Ghost Calander</name></author><category term="Calander" /><category term="기획" /><summary type="html">가설 검증이라는 단어에서 느낀 중의성 / KPI에 대한 공부</summary></entry><entry><title type="html">1일차 : 일정 계획 세팅</title><link href="/calander/daily/" rel="alternate" type="text/html" title="1일차 : 일정 계획 세팅" /><published>2021-06-29T00:00:00+09:00</published><updated>2021-06-29T00:00:00+09:00</updated><id>/calander/daily</id><content type="html" xml:base="/calander/daily/">&lt;h1 id=&quot;오늘-한-일&quot;&gt;오늘 한 일&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/73425926/123807525-e3490780-d92a-11eb-9e96-78cc3bb65a9e.jpg&quot; alt=&quot;06-29-overall-plan&quot; /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;github-page-준비하기&quot;&gt;Github page 준비하기&lt;/h2&gt;
 &lt;p&gt;저번 방학 때, 자동매매 프로그램 개발 과정을 기록하겠다고 만들었다가 일주일도 안되서 버린 페이지를 재활용해서 블로그를 만들었다.
@@ -33,4 +31,19 @@
 &lt;p&gt;간단하게 말해, 나는 인간 능력의 성장 과정을 데이터화하고 이를 공유 &amp;amp; 분석하는 툴을 가지고 싶었다. 그리고 나는 파이썬 문법을 구글에 구글링해서 비슷하게나마 쓸 수 있는 능력을 가지고 있고 디자인은 그림처럼 극초보 수준이다.&lt;/p&gt;
 
 &lt;h1 id=&quot;앞으로&quot;&gt;앞으로&lt;/h1&gt;
-&lt;p&gt;누구나처럼 노베이스에서 시작했다는 자극적인 말을 하지 않겠다. 하지만 나는 나를 직시하고 내가 가진 능력의 최대한을 활용하는 방향으로 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2주&lt;/code&gt;안에 프로덕트를 만들어 세상에 내놓을 것이다. 그리고 나를 따라 더 많은 사람들이 더 많은 프로덕트를 내놓아줬으면 좋겠다.&lt;/p&gt;</content><author><name>Ghost Calander</name></author><category term="Calander" /><category term="기획" /><summary type="html">하고 싶은 것들이 너무 뒤섞여 있을 때, 나는 내 행동의 이유부터 정리하기 시작했다.</summary></entry></feed>
+&lt;p&gt;누구나처럼 노베이스에서 시작했다는 자극적인 말을 하지 않겠다. 하지만 나는 나를 직시하고 내가 가진 능력의 최대한을 활용하는 방향으로 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2주&lt;/code&gt;안에 프로덕트를 만들어 세상에 내놓을 것이다. 그리고 나를 따라 더 많은 사람들이 더 많은 프로덕트를 내놓아줬으면 좋겠다.&lt;/p&gt;</content><author><name>Ghost Calander</name></author><category term="Calander" /><category term="기획" /><summary type="html">하고 싶은 것들이 너무 뒤섞여 있을 때, 나는 내 행동의 이유부터 정리하기 시작했다.</summary></entry><entry><title type="html">예상 프로덕트 개발 순서</title><link href="/calander/summary/" rel="alternate" type="text/html" title="예상 프로덕트 개발 순서" /><published>2021-06-29T00:00:00+09:00</published><updated>2021-06-29T00:00:00+09:00</updated><id>/calander/summary</id><content type="html" xml:base="/calander/summary/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/73425926/123816433-45f1d180-d932-11eb-8fb1-867f039bee7c.jpg&quot; alt=&quot;06-29-summary&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;기획&quot;&gt;기획&lt;/h2&gt;
+&lt;h3 id=&quot;제품-개발의-내적-동기&quot;&gt;제품 개발의 내적 동기&lt;/h3&gt;
+&lt;h3 id=&quot;제품-아이디어-정리&quot;&gt;제품 아이디어 정리&lt;/h3&gt;
+&lt;h3 id=&quot;가설-및-가설-검증-전략-세팅&quot;&gt;가설 및 가설 검증 전략 세팅&lt;/h3&gt;
+
+&lt;h2 id=&quot;개발&quot;&gt;개발&lt;/h2&gt;
+&lt;h3 id=&quot;최소한의-기능-정리&quot;&gt;최소한의 기능 정리&lt;/h3&gt;
+&lt;h3 id=&quot;기능-실현을-위한-노코드-툴-list화&quot;&gt;기능 실현을 위한 노코드 툴 List화&lt;/h3&gt;
+&lt;h3 id=&quot;스토리보드--와이어프레임-작성&quot;&gt;스토리보드 &amp;amp; 와이어프레임 작성&lt;/h3&gt;
+&lt;h3 id=&quot;제품-제작&quot;&gt;제품 제작&lt;/h3&gt;
+&lt;h2 id=&quot;마케팅--검증&quot;&gt;마케팅 &amp;amp; 검증&lt;/h2&gt;
+&lt;h3 id=&quot;홍보물-제작-및-홍보채널-list화&quot;&gt;홍보물 제작 및 홍보채널 List화&lt;/h3&gt;
+&lt;h3 id=&quot;베타-테스트&quot;&gt;베타 테스트&lt;/h3&gt;
+&lt;h3 id=&quot;가설-검증-데이터-결과-정리&quot;&gt;가설 검증 데이터 결과 정리&lt;/h3&gt;</content><author><name>Ghost Calander</name></author><category term="Calander" /><category term="기획" /><summary type="html">웹 형 어플리케이션 제작을 위한 A to Z 가이드라인</summary></entry></feed>
