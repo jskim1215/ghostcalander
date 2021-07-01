@@ -21,6 +21,14 @@
 <lastmod>2021-06-30T00:00:00+09:00</lastmod>
 </url>
 <url>
+<loc>/calander/daily3/</loc>
+<lastmod>2021-07-01T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>/calander/problem-survey/</loc>
+<lastmod>2021-07-01T00:00:00+09:00</lastmod>
+</url>
+<url>
 <loc>/categories/calander</loc>
 </url>
 <url>
@@ -37,5 +45,8 @@
 </url>
 <url>
 <loc>/tags/</loc>
+</url>
+<url>
+<loc>/page2/</loc>
 </url>
 </urlset>
