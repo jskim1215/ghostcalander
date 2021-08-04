@@ -5,7 +5,7 @@ excerpt: "맨날 사용하는 지겨운 구글 폼은 이제 그만"
 tags:
   - 기획
 categories:
-  - Calander
+  - Ghost Calander
 
 toc: true
 toc_sticky: true

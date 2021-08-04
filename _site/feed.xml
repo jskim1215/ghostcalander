@@ -1,86 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-07-01T23:39:45+09:00</updated><id>/feed.xml</id><title type="html">Ghost Calander</title><subtitle>Pay it Forward를 위한 프로덕트 개발 여정 기록 페이지</subtitle><author><name>Ghost Calander</name></author><entry><title type="html">내가 설문조사를 진행한 방법</title><link href="/calander/problem-survey/" rel="alternate" type="text/html" title="내가 설문조사를 진행한 방법" /><published>2021-07-01T00:00:00+09:00</published><updated>2021-07-01T00:00:00+09:00</updated><id>/calander/problem-survey</id><content type="html" xml:base="/calander/problem-survey/">&lt;h1 id=&quot;이야기하기-앞서서&quot;&gt;이야기하기 앞서서&lt;/h1&gt;
-&lt;p&gt;나는 개인적으로 구글 폼에 부정적인 의견을 가지고 있다. 일단 사용자 입장에서 너무 너무 불편하다. 그래서 내가 결정한 문제에 대해 검증하기 위해 &lt;a href=&quot;https://try.typeform.com/home/?&amp;amp;tf_campaign=brand_13708156729_v2&amp;amp;tf_source=google&amp;amp;tf_medium=paid&amp;amp;tf_content=124262789677_530593041552&amp;amp;tf_term=typeform&amp;amp;tf_dv=c&amp;amp;tf_matchtype=e&amp;amp;tf_adposition=&amp;amp;gclid=CjwKCAjwz_WGBhA1EiwAUAxIcSnwVnrU2lnMfaZzMj65-Y2CKILyl4s3qS1LNcsPYWTOVgHnt1Oy6RoCMbkQAvD_BwE&amp;amp;gclsrc=aw.ds&quot;&gt;Typeform&lt;/a&gt;을 통해 설문조사를 진행했다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-08-04T13:08:36+09:00</updated><id>/feed.xml</id><title type="html">Ghost Calander</title><subtitle>Pay it Forward를 위한 프로덕트 개발 여정 기록 페이지</subtitle><author><name>Ghost Calander</name></author><entry><title type="html">취미생활 F1</title><link href="/%EC%B7%A8%EB%AF%B8%EC%83%9D%ED%99%9C/hobby1/" rel="alternate" type="text/html" title="취미생활 F1" /><published>2021-08-04T00:00:00+09:00</published><updated>2021-08-04T00:00:00+09:00</updated><id>/%EC%B7%A8%EB%AF%B8%EC%83%9D%ED%99%9C/hobby1</id><content type="html" xml:base="/%EC%B7%A8%EB%AF%B8%EC%83%9D%ED%99%9C/hobby1/"></content><author><name>Ghost Calander</name></author><category term="취미생활" /><category term="Forza Horizon" /><summary type="html">test</summary></entry><entry><title type="html">바닐라 JS로 크롬 앱 만들기</title><link href="/%EB%B0%94%EB%8B%90%EB%9D%BC%20js%EB%A1%9C%20%ED%81%AC%EB%A1%AC%20%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/vanilaJsChrome1/" rel="alternate" type="text/html" title="바닐라 JS로 크롬 앱 만들기" /><published>2021-08-04T00:00:00+09:00</published><updated>2021-08-04T00:00:00+09:00</updated><id>/%EB%B0%94%EB%8B%90%EB%9D%BC%20js%EB%A1%9C%20%ED%81%AC%EB%A1%AC%20%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/vanilaJsChrome1</id><content type="html" xml:base="/%EB%B0%94%EB%8B%90%EB%9D%BC%20js%EB%A1%9C%20%ED%81%AC%EB%A1%AC%20%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/vanilaJsChrome1/"></content><author><name>Ghost Calander</name></author><category term="바닐라 JS로 크롬 앱 만들기" /><category term="Javascript" /><summary type="html">test</summary></entry><entry><title type="html">Todo With Me</title><link href="/todo%20with%20me/todoWithMe1/" rel="alternate" type="text/html" title="Todo With Me" /><published>2021-08-04T00:00:00+09:00</published><updated>2021-08-04T00:00:00+09:00</updated><id>/todo%20with%20me/todoWithMe1</id><content type="html" xml:base="/todo%20with%20me/todoWithMe1/"></content><author><name>Ghost Calander</name></author><category term="Todo With Me" /><category term="project" /><summary type="html">test</summary></entry><entry><title type="html">실전형 리액트 Hooks 10개</title><link href="/%EC%8B%A4%EC%A0%84%ED%98%95%20%EB%A6%AC%EC%95%A1%ED%8A%B8%20hooks%2010%EA%B0%9C/reactHooks1/" rel="alternate" type="text/html" title="실전형 리액트 Hooks 10개" /><published>2021-08-04T00:00:00+09:00</published><updated>2021-08-04T00:00:00+09:00</updated><id>/%EC%8B%A4%EC%A0%84%ED%98%95%20%EB%A6%AC%EC%95%A1%ED%8A%B8%20hooks%2010%EA%B0%9C/reactHooks1</id><content type="html" xml:base="/%EC%8B%A4%EC%A0%84%ED%98%95%20%EB%A6%AC%EC%95%A1%ED%8A%B8%20hooks%2010%EA%B0%9C/reactHooks1/"></content><author><name>Ghost Calander</name></author><category term="실전형 리액트 Hooks 10개" /><category term="React" /><summary type="html">test</summary></entry><entry><title type="html">울트라러닝 프로젝트를 준비하면서</title><link href="/%EC%83%9D%EA%B0%81%EC%A0%95%EB%A6%AC/ulp1/" rel="alternate" type="text/html" title="울트라러닝 프로젝트를 준비하면서" /><published>2021-07-25T00:00:00+09:00</published><updated>2021-07-25T00:00:00+09:00</updated><id>/%EC%83%9D%EA%B0%81%EC%A0%95%EB%A6%AC/ulp1</id><content type="html" xml:base="/%EC%83%9D%EA%B0%81%EC%A0%95%EB%A6%AC/ulp1/">&lt;h2 id=&quot;책-울트라러닝에서-배운-원칙&quot;&gt;책 울트라러닝에서 배운 원칙&lt;/h2&gt;
+&lt;h3 id=&quot;1-목표-설정&quot;&gt;1. 목표 설정&lt;/h3&gt;
+&lt;p&gt;대학생이 방학 때 가장 많이 하는 말이 무엇일까? 아마도 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;이번 방학에 뭐하지?&lt;/code&gt; 일 것이다. 그러고 매번 목표로 삼는 것들은 비슷하다. 대표적으로 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;토익, 한국사, 컴활 자격증&lt;/code&gt; 같은 것들이 그렇다. 
+왜 이런 목표들이 가장 많을까? 생각해보면 목표 그 자체에 달성 기준이 포함된 경우라서 쉽게 떠올릴 수 있어서라고 생각한다.
+&lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;결과물&quot;&gt;결과물&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/73425926/124141716-9731ca80-dac4-11eb-9ae5-32a3c2c4b5bd.gif&quot; alt=&quot;survey-video&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;The core of the ultralearning strategy is intensity and a willingness to prioritize effectiveness.&lt;/code&gt; 책에서 말하는 울트라러닝의 핵심은 효과에 집중하는 것이다. 달성 여부가 판단한 목표를 세우고 그리고 목표를 달성함으로 인해 얻을 수 있는 변화에 집중해서 현실의 나를 발전시키는 것, 이게 앞으로 그리고 계속해서 생각해야할 원칙이다.&lt;/p&gt;
 
-&lt;h1 id=&quot;과정&quot;&gt;과정&lt;/h1&gt;
-&lt;h2 id=&quot;기획&quot;&gt;기획&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/73425926/124141878-b92b4d00-dac4-11eb-8964-a2be18e5ed5f.jpg&quot; alt=&quot;07-01-test-plan&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;2-실행-계획&quot;&gt;2. 실행 계획&lt;/h3&gt;
+&lt;p&gt;간단히 생각해봤을 때, 위에서 말한 자격증들은 사실 1달이면 딸 수 있다고 말할 수 있다. 하지만 우리가 그렇게 하지 못하고 있는 이유는 실행을 할 수 있는 계획을 세우지 못해서라고 생각한다.
+&lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;질문지-구성&quot;&gt;질문지 구성&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/73425926/124141959-c9dbc300-dac4-11eb-9e8c-8905d6f9efde.jpg&quot; alt=&quot;07-01-question-diagram-01&quot; /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/73425926/124141990-cf390d80-dac4-11eb-9d06-c4abdd1a4009.jpg&quot; alt=&quot;07-01-question-diagram-02&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;책에서는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;What to Learn?&lt;/code&gt; 그리고 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;How to Learn?&lt;/code&gt;에 대한 질문을 잘 해야한다고 말한다.&lt;/p&gt;
 
-&lt;h2 id=&quot;typeform-사용-팁&quot;&gt;Typeform 사용 팁&lt;/h2&gt;
-&lt;p&gt;Typeform은 무료로 10명의 response만 받을 수 있게 되어 있다. 하지만 Google 계정으로 로그인할 수 있기 때문에 Google 계정을 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;총 4개&lt;/code&gt;를 만들어서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;고파스 그리고 고려대 에브리타임&lt;/code&gt;에 배포했다. 많은 인원에 대해 진행할 경우에는 유로 plan을 구매하는 것이 훨씬 좋지만 이빨 대신 잇몸으로 한다는 마인드로 진행했다.&lt;/p&gt;
+&lt;h3 id=&quot;3-실행&quot;&gt;3. 실행&lt;/h3&gt;
+&lt;p&gt;학습을 실행하는 과정에서 가장 중요시하는 가치는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;학습 속도&lt;/code&gt;이다. 이를 실현하기 위해서 책에서는 집중력과 특화학습을 이야기한다.&lt;/p&gt;
 
-&lt;h1 id=&quot;결과&quot;&gt;결과&lt;/h1&gt;
-&lt;p&gt;배포 시작은 7월 1일 오후 3시 17분부터 시작해 약 2시간만에 양 사이트에서 각각 10명씩 총 20명의 결과를 받았다. 현재 10시 20분부터 다시 사이트에 새롭게 배포 중이다.&lt;/p&gt;
+&lt;h3 id=&quot;4-더-보기&quot;&gt;4. 더 보기&lt;/h3&gt;
+&lt;p&gt;더 세세하게 정리해놓은 &lt;a href=&quot;https://seen-visor-ebb.notion.site/Ultra-Learning-f208a9785996480bac4bbb4fd06388fd&quot;&gt;내용은 여기서 확인할 수 있다.&lt;/a&gt;&lt;/p&gt;</content><author><name>Ghost Calander</name></author><category term="생각정리" /><category term="일기" /><summary type="html">위대한 결과는 하루 아침에 완성되지 않는 거를 알면서도 계속 실수를 반복하는 중</summary></entry><entry><title type="html">프로젝트 쉐도우 복서 후기</title><link href="/%EC%83%9D%EA%B0%81%EC%A0%95%EB%A6%AC/feedback/" rel="alternate" type="text/html" title="프로젝트 쉐도우 복서 후기" /><published>2021-07-14T00:00:00+09:00</published><updated>2021-07-14T00:00:00+09:00</updated><id>/%EC%83%9D%EA%B0%81%EC%A0%95%EB%A6%AC/feedback</id><content type="html" xml:base="/%EC%83%9D%EA%B0%81%EC%A0%95%EB%A6%AC/feedback/">&lt;h2 id=&quot;창업-아이템-고르기&quot;&gt;창업 아이템 고르기&lt;/h2&gt;
+&lt;p&gt;이번에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;쉐도우 복서&lt;/code&gt;라는 서비스를 만들어보면서 느낀 점은&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;내가 진짜 겪은 문제라서 죽어도 해결해야한다고 생각하거나&lt;/code&gt;
+대표적인 사례로 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;클라썸&lt;/code&gt; 같은 사례가 있다고 생각한다.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;진짜 큰 시장이라서 들어가도 괜찮거나&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;결과를 엑셀로 저장한 결과는 내일 다시 정리해볼 것이다.&lt;/p&gt;</content><author><name>Ghost Calander</name></author><category term="Calander" /><category term="기획" /><summary type="html">맨날 사용하는 지겨운 구글 폼은 이제 그만</summary></entry><entry><title type="html">3일차 : 설문조사 진행 그리고 프로덕트 기능 정리</title><link href="/calander/daily3/" rel="alternate" type="text/html" title="3일차 : 설문조사 진행 그리고 프로덕트 기능 정리" /><published>2021-07-01T00:00:00+09:00</published><updated>2021-07-01T00:00:00+09:00</updated><id>/calander/daily3</id><content type="html" xml:base="/calander/daily3/">&lt;h2 id=&quot;오늘-한-일&quot;&gt;오늘 한 일&lt;/h2&gt;
-&lt;h3 id=&quot;typeform-사용해-설문조사-진행&quot;&gt;Typeform 사용해 설문조사 진행&lt;/h3&gt;
-&lt;h3 id=&quot;프로덕트-기능-정리-및-3rd-party-프로그램-조사&quot;&gt;프로덕트 기능 정리 및 3rd party 프로그램 조사&lt;/h3&gt;
+&lt;p&gt;개인적으로 이 두 가지를 모두 만족해야 창업 서비스가 작동하지 않을까? 생각한다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/73425926/124138842-0528c280-dac2-11eb-8361-041ba4742daa.jpg&quot; alt=&quot;07-01-function-plan&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;아마 이번 서비스에서 내가 잡은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;포인트&lt;/code&gt;는&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;창업에 도전하고 싶은데 어떤 식으로 시작부터 해야할 지 모르는 대학생이 많다.&lt;/li&gt;
+  &lt;li&gt;카피캣 교육 커리큘럼이 어느정도 창업의 프레임을 잡는데 도움을 줄 것이다.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;h2 id=&quot;기획&quot;&gt;기획&lt;/h2&gt;
-&lt;h3 id=&quot;내가-결정한-문제에-대한-가설-검증&quot;&gt;내가 결정한 문제에 대한 가설 검증&lt;/h3&gt;
-&lt;p&gt;내가 해결하고자 결정한 문제에 대해 실제 사용자들이 그런 문제를 겪고 있는지 확인하기 위해 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;창업가로서 당신의 롤 티어는 어디입니까?&lt;/code&gt;라는 제목으로 설문조사를 진행했다. 관련 방법 및 결과는 &lt;a href=&quot;https://jskim1215.github.io/calander/problem-survey/&quot;&gt;여기서 확인할 수 있다.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;근데 실제 결과로는&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;유료료 참여할만큼 니즈가 크지 않다.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;h2 id=&quot;개발&quot;&gt;개발&lt;/h2&gt;
-&lt;h3 id=&quot;최소한의-기능-정리&quot;&gt;최소한의 기능 정리&lt;/h3&gt;
-&lt;h3 id=&quot;기능-실현을-위한-노코드-툴-list화&quot;&gt;기능 실현을 위한 노코드 툴 List화&lt;/h3&gt;</content><author><name>Ghost Calander</name></author><category term="Calander" /><category term="기획" /><summary type="html">하루만에 한 푼 안쓰고 20명 이상에게 설문조사를 진행하는 방법</summary></entry><entry><title type="html">2일차 : 기획 부분 마무리</title><link href="/calander/daily2/" rel="alternate" type="text/html" title="2일차 : 기획 부분 마무리" /><published>2021-06-30T00:00:00+09:00</published><updated>2021-06-30T00:00:00+09:00</updated><id>/calander/daily2</id><content type="html" xml:base="/calander/daily2/">&lt;h2 id=&quot;오늘-한-일&quot;&gt;오늘 한 일&lt;/h2&gt;
-&lt;h3 id=&quot;프로덕트-기획-마무리&quot;&gt;프로덕트 기획 마무리&lt;/h3&gt;
-&lt;h3 id=&quot;kpi-공부하기&quot;&gt;KPI 공부하기&lt;/h3&gt;
-&lt;h3 id=&quot;일정-정리-엑셀-파일-만들기&quot;&gt;일정 정리 엑셀 파일 만들기&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/73425926/123961408-4601d800-d9eb-11eb-890c-820c735df7bb.jpg&quot; alt=&quot;06-30-daily&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;다시-나를-돌아보기&quot;&gt;다시 나를 돌아보기&lt;/h2&gt;
+&lt;p&gt;근데 문득 나는 이런 생각이 크게 들었다. 내가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;창업&lt;/code&gt;을 하고 싶은 것은 확실하다.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;내가 문제를 규정하고 해당 해결책이 세상에 영향을 끼칠 수 있기 때문이다.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;h2 id=&quot;기획&quot;&gt;기획&lt;/h2&gt;
-&lt;h3 id=&quot;제품-개발의-내적-동기&quot;&gt;제품 개발의 내적 동기&lt;/h3&gt;
-&lt;h3 id=&quot;제품-아이디어-정리&quot;&gt;제품 아이디어 정리&lt;/h3&gt;
-&lt;h3 id=&quot;가설-설정-및-가설-검증-전략-세팅&quot;&gt;가설 설정 및 가설 검증 전략 세팅&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/73425926/123961502-65990080-d9eb-11eb-8ff7-1e9f6992e1f9.jpg&quot; alt=&quot;06-30-kpi&quot; /&gt;&lt;/p&gt;
-&lt;h4 id=&quot;가설-검증의-분류&quot;&gt;가설 검증의 분류&lt;/h4&gt;
-&lt;p&gt;개인적으로 프로덕트 개발 과정을 정리하던 도중에 가설 검증이라는 단어가 크게 두 가지 용도로 사용 된다고 생각한다. 첫번째는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;내가 결정한 문제에 대한 가설&lt;/code&gt; 두번째는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;내가 생각한 해결책의 작동 결과에 대한 가설&lt;/code&gt;. 이 경우 첫번째는 MVP 제작 이전에 검증해야하고 두번째는 MVP 제작 이후에 검증 가능하다고 생각해서 시간의 차이가 필요하다고 생각했다.&lt;/p&gt;
-&lt;h4 id=&quot;내가-결정한-문제에-대한-가설-검증&quot;&gt;내가 결정한 문제에 대한 가설 검증&lt;/h4&gt;
-&lt;p&gt;내가 결정한 문제가 과연 얼마나 공감을 받을 수 있을지 아는 것이 중요하다고 생각해서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Disquiet&lt;/code&gt;에서 1위를 하고 있던 &lt;a href=&quot;https://www.dodatool.com/&quot;&gt;도다 툴&lt;/a&gt;을 활용해서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;창업가 레벨 테스트&lt;/code&gt;라는 것을 진행해보려고 한다.&lt;/p&gt;
+&lt;p&gt;그래서 왜 내가 이렇게 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;IT 서비스&lt;/code&gt;에 집착하고 있는지 다시 한 번 고민하기 시작했다. 스스로 생각하기에 나에게 현재까지 주어진 선택지는 크게 두 개라고 생각한다.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;IT 서비스&lt;/li&gt;
+  &lt;li&gt;제조업 (기계공학)&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;찾아보니까 아쉽게도 &lt;a href=&quot;https://www.dodatool.com/&quot;&gt;도다 툴&lt;/a&gt;은 아직 애널리틱스 기능이 없어 결과 값에 대한 보고를 받을 수 없어서 &lt;a href=&quot;https://brunch.co.kr/@theciriz/13&quot;&gt;개발자 없이 바이럴 콘텐츠 만드는 법&lt;/a&gt;를 참고해서 &lt;a href=&quot;https://www.typeform.com/?&amp;amp;tf_campaign=brand_9724248146_v2&amp;amp;tf_source=google&amp;amp;tf_medium=paid&amp;amp;tf_content=101060307818_427947667108&amp;amp;tf_term=typeform&amp;amp;tf_dv=c&amp;amp;tf_matchtype=e&amp;amp;tf_adposition=&amp;amp;gclid=CjwKCAjwrPCGBhALEiwAUl9X07vNxOH57dJDUS02lsvmZxIvTImKLwR39AcCrNePLRF_Yj-KueJIpBoCu78QAvD_BwE&amp;amp;gclsrc=aw.ds&quot;&gt;Typeform&lt;/a&gt;을 사용하기로 했다.&lt;/p&gt;</content><author><name>Ghost Calander</name></author><category term="Calander" /><category term="기획" /><summary type="html">가설 검증이라는 단어에서 느낀 중의성 / KPI에 대한 공부</summary></entry><entry><title type="html">1일차 : 일정 계획 세팅</title><link href="/calander/daily/" rel="alternate" type="text/html" title="1일차 : 일정 계획 세팅" /><published>2021-06-29T00:00:00+09:00</published><updated>2021-06-29T00:00:00+09:00</updated><id>/calander/daily</id><content type="html" xml:base="/calander/daily/">&lt;h1 id=&quot;오늘-한-일&quot;&gt;오늘 한 일&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/73425926/123807525-e3490780-d92a-11eb-9e96-78cc3bb65a9e.jpg&quot; alt=&quot;06-29-overall-plan&quot; /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;github-page-준비하기&quot;&gt;Github page 준비하기&lt;/h2&gt;
-&lt;p&gt;저번 방학 때, 자동매매 프로그램 개발 과정을 기록하겠다고 만들었다가 일주일도 안되서 버린 페이지를 재활용해서 블로그를 만들었다.
-따라 할 사람들은 &lt;a href=&quot;https://ansohxxn.github.io/categories/blog&quot;&gt;Jekyll/Github 블로그만들기&lt;/a&gt;를 참고해서 따라하면 된다.&lt;/p&gt;
+&lt;h2 id=&quot;앞으로-방향성-결정&quot;&gt;앞으로 방향성 결정&lt;/h2&gt;
+&lt;p&gt;일단 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;IT 서비스&lt;/code&gt;를 할 수 있을 때 해보고 싶다는 생각이 들었다. 현재 진행하고 있는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;IOT 스위치&lt;/code&gt;의 경우 내년 2월까지 천천히 진행해서 발전시켜도 된다는 생각이 들었다. 그래서 내린 결정은 아래와 같다.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;이번 년도까지 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;IT 서비스&lt;/code&gt; 5개 이상 만들기&lt;/li&gt;
+  &lt;li&gt;IOT 스위치 만들면서 3D 모델링 공부하고 기계공학 공모전 찾아보기&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Ghost Calander</name></author><category term="생각정리" /><category term="일기" /><summary type="html">왜 창업을 하고 싶은거지? 이게 진짜 맞는거야?</summary></entry><entry><title type="html">13일차 : 운영 준비 3일차</title><link href="/ghost%20calander/daily13/" rel="alternate" type="text/html" title="13일차 : 운영 준비 3일차" /><published>2021-07-11T00:00:00+09:00</published><updated>2021-07-11T00:00:00+09:00</updated><id>/ghost%20calander/daily13</id><content type="html" xml:base="/ghost%20calander/daily13/">&lt;h2 id=&quot;오늘-한-일&quot;&gt;오늘 한 일&lt;/h2&gt;
+&lt;h3 id=&quot;데이터-처리-매뉴얼-제작&quot;&gt;데이터 처리 매뉴얼 제작&lt;/h3&gt;
 
-&lt;h2 id=&quot;러프하게-프로덕트-개발-계획-세우기&quot;&gt;러프하게 프로덕트 개발 계획 세우기&lt;/h2&gt;
-&lt;p&gt;뭘 할 줄 모르겠을 때 가장 효율이 좋은 행동, 그건 모방이라고 생각한다. 우연히 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;패스트벤쳐스 TextBook 프로그램&lt;/code&gt; 단체 카카오톡 방에서 처음 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Disquiet&lt;/code&gt;이라는 사이트를 접하게 됬고, 여기서 매거진 파트에서 프로덕트 개발 여정을 기록한 것을 보고 나랑 비슷한 행동을 했고, 이미 투자까지 받을 정도의 결과를 보여줘서 나의 모방 상대로 정했다.&lt;/p&gt;</content><author><name>Ghost Calander</name></author><category term="Calander" /><category term="기획" /><summary type="html">뭘 할 줄 모르겠을 때 가장 효율이 좋은 행동, 그건 모방</summary></entry><entry><title type="html">예상 프로덕트 개발 순서</title><link href="/calander/summary/" rel="alternate" type="text/html" title="예상 프로덕트 개발 순서" /><published>2021-06-29T00:00:00+09:00</published><updated>2021-06-29T00:00:00+09:00</updated><id>/calander/summary</id><content type="html" xml:base="/calander/summary/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/73425926/123816433-45f1d180-d932-11eb-8fb1-867f039bee7c.jpg&quot; alt=&quot;06-29-summary&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;느낀점&quot;&gt;느낀점&lt;/h2&gt;
+&lt;h3 id=&quot;실제-운영에-들어가면-버벅이지-않도록-시뮬레이션-하기&quot;&gt;실제 운영에 들어가면 버벅이지 않도록 시뮬레이션 하기&lt;/h3&gt;
+&lt;p&gt;처음 생각했던 운영 방식의 관점에서 벗어나 고객한테 하나하나 설명해준다고 생각하니까 접근하기가 굉장히 어렵겠다라는 생각이 많이 들었다.&lt;/p&gt;
 
-&lt;h2 id=&quot;기획&quot;&gt;기획&lt;/h2&gt;
-&lt;h3 id=&quot;제품-개발의-내적-동기&quot;&gt;제품 개발의 내적 동기&lt;/h3&gt;
-&lt;h3 id=&quot;제품-아이디어-정리&quot;&gt;제품 아이디어 정리&lt;/h3&gt;
-&lt;h3 id=&quot;가설-설정-및-가설-검증-전략-세팅&quot;&gt;가설 설정 및 가설 검증 전략 세팅&lt;/h3&gt;
+&lt;p&gt;실제로 ZOOM 설명회를 진행했을 때, 어떻게 진행할지 생각해보니 어려움이 하나하나씩 풀려나가는 느낌이 들었다. 이런 방식으로 접근하는 것 자체가 굉장히 좋은 접근 방향인 것 같다.&lt;/p&gt;
 
-&lt;h2 id=&quot;개발&quot;&gt;개발&lt;/h2&gt;
-&lt;h3 id=&quot;최소한의-기능-정리&quot;&gt;최소한의 기능 정리&lt;/h3&gt;
-&lt;h3 id=&quot;기능-실현을-위한-노코드-툴-list화&quot;&gt;기능 실현을 위한 노코드 툴 List화&lt;/h3&gt;
-&lt;h3 id=&quot;스토리보드-작성&quot;&gt;스토리보드 작성&lt;/h3&gt;
-&lt;h3 id=&quot;와이어프레임-작성&quot;&gt;와이어프레임 작성&lt;/h3&gt;
-&lt;h3 id=&quot;제품-제작&quot;&gt;제품 제작&lt;/h3&gt;
-&lt;h2 id=&quot;마케팅--검증&quot;&gt;마케팅 &amp;amp; 검증&lt;/h2&gt;
-&lt;h3 id=&quot;홍보물-제작&quot;&gt;홍보물 제작&lt;/h3&gt;
-&lt;h3 id=&quot;홍보채널-list화&quot;&gt;홍보채널 List화&lt;/h3&gt;
-&lt;h3 id=&quot;홍보물-배포&quot;&gt;홍보물 배포&lt;/h3&gt;
-&lt;h3 id=&quot;가설-검증-데이터-결과-정리&quot;&gt;가설 검증 데이터 결과 정리&lt;/h3&gt;</content><author><name>Ghost Calander</name></author><category term="Calander" /><category term="기획" /><summary type="html">웹 형 어플리케이션 제작을 위한 A to Z 가이드라인</summary></entry><entry><title type="html">내가 프로덕트 개발 여정을 기록하려는 이유</title><link href="/calander/first-review/" rel="alternate" type="text/html" title="내가 프로덕트 개발 여정을 기록하려는 이유" /><published>2021-06-29T00:00:00+09:00</published><updated>2021-06-29T00:00:00+09:00</updated><id>/calander/first-review</id><content type="html" xml:base="/calander/first-review/">&lt;h1 id=&quot;말-밖에-할-줄-모르는-나&quot;&gt;말 밖에 할 줄 모르는 나&lt;/h1&gt;
-&lt;p&gt;군대에서 책 몇 권 읽고 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;매일 나는 창업을 하겠다고 이야기&lt;/code&gt;하고 다녔다. 벌써 전역한 지도 1년이 지났지만 뭘 했냐라고 한다면 나는 아무 말도 할 수 없다. 학점 말고 다른 것이 중요하다라는 나에게 정작 말할 것은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;학점 그리고 기한이 지난 토익 성적표&lt;/code&gt; 뿐이였다.
-아 하나가 더 있다. 맨날 상상 속으로만 끄적였던 창업 아이템들. 제 2의 애플, 페이스북, 구글 같은 회사가 될 거라고 상상만 했던 아이템들이 있긴하다. 결국 난 말 뿐이다.&lt;/p&gt;
+&lt;h3 id=&quot;행동을-정량적으로-분석하기에-느끼는-어려움&quot;&gt;행동을 정량적으로 분석하기에 느끼는 어려움&lt;/h3&gt;
+&lt;p&gt;우선적으로 이번 프로젝트를 진행하는 과정에서 걸린 시간을 기준으로 행동에 각각 가중치를 부여했다. 이번에 한 번 기수를 진행하면서 가중치의 수정을 거쳐봐야겠다. 추가적으로 구글이나 넷플릭스 같은 기업들이 데이터를 처리하는 방법? 같은 거를 공부해봐도 좋겠다는 생각이 들었다.&lt;/p&gt;</content><author><name>Ghost Calander</name></author><category term="Ghost Calander" /><category term="기획" /><summary type="html">데이터 처리 매뉴얼 제작 및 행동 점수 분배</summary></entry><entry><title type="html">12일차 : 운영 준비 2일차</title><link href="/ghost%20calander/daily12/" rel="alternate" type="text/html" title="12일차 : 운영 준비 2일차" /><published>2021-07-10T00:00:00+09:00</published><updated>2021-07-10T00:00:00+09:00</updated><id>/ghost%20calander/daily12</id><content type="html" xml:base="/ghost%20calander/daily12/">&lt;h2 id=&quot;오늘-한-일&quot;&gt;오늘 한 일&lt;/h2&gt;
+&lt;h3 id=&quot;제작-가이드라인-파일-마무리&quot;&gt;제작 가이드라인 파일 마무리&lt;/h3&gt;
+&lt;h3 id=&quot;홍보-포스터-제작&quot;&gt;홍보 포스터 제작&lt;/h3&gt;
 
-&lt;h1 id=&quot;지피지기면-백전백승&quot;&gt;지피지기면 백전백승&lt;/h1&gt;
-&lt;p&gt;그래도 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;지피지기면 백전백승&lt;/code&gt;이라는 옛날 말이 있지 않은가? 더 이상은 나는 상상이나 말만 하지 않기로 당장 행동하기로 했다. 내 은사가 나에게 해준 말처럼 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;The Show must go on&lt;/code&gt;, 나는 이번 방학에도 나의 쇼를 진행시키지 못한다면 더 이상 창업은 나의 길이 아니라고 생각한다.&lt;/p&gt;
+&lt;h2 id=&quot;느낀점&quot;&gt;느낀점&lt;/h2&gt;
+&lt;h3 id=&quot;과연-많이-참여할까&quot;&gt;과연 많이 참여할까?&lt;/h3&gt;
+&lt;p&gt;일단 인원 수 제한과 관련해서 내가 수동으로 처리할 수 있을 정도의 인원은 20명 정도라고 판단했다. 일단 1기를 받아보고 이후 수정을 진행하는 방향으로 진행해볼 생각이다.&lt;/p&gt;
 
-&lt;h1 id=&quot;나는-누구인가&quot;&gt;나는 누구인가?&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/73425926/123806236-b3e5cb00-d929-11eb-865f-7253f6555426.jpg&quot; alt=&quot;06-29-self-valuation&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;가격과 관련해서는 무료라고 한다면 사용자 층이 필터링 되기 어려울 것이라고 생각했다. 무료로 하고 서류 면접으롬만 20명을 뽑는 것도 만약 이번 기수에 10명을 채우지 못하면 생각해봐야겠다.&lt;/p&gt;
 
-&lt;p&gt;간단하게 말해, 나는 인간 능력의 성장 과정을 데이터화하고 이를 공유 &amp;amp; 분석하는 툴을 가지고 싶었다. 그리고 나는 파이썬 문법을 구글에 구글링해서 비슷하게나마 쓸 수 있는 능력을 가지고 있고 디자인은 그림처럼 극초보 수준이다.&lt;/p&gt;
+&lt;p&gt;내일 진행률 분석 엑셀 파일 제작과 행동 점수 분배 정도 진행해야겠다.
+구글 폼도 만들어야된다…&lt;/p&gt;
 
-&lt;h1 id=&quot;앞으로&quot;&gt;앞으로&lt;/h1&gt;
-&lt;p&gt;누구나처럼 노베이스에서 시작했다는 자극적인 말을 하지 않겠다. 하지만 나는 나를 직시하고 내가 가진 능력의 최대한을 활용하는 방향으로 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2주&lt;/code&gt;안에 프로덕트를 만들어 세상에 내놓을 것이다. 그리고 나를 따라 더 많은 사람들이 더 많은 프로덕트를 내놓아줬으면 좋겠다.&lt;/p&gt;</content><author><name>Ghost Calander</name></author><category term="Calander" /><category term="기획" /><summary type="html">하고 싶은 것들이 너무 뒤섞여 있을 때, 나는 내 행동의 이유부터 정리하기 시작했다.</summary></entry><entry><title type="html">제 13회 CCP 1차 팀미팅 준비</title><link href="/switch/first-ccp/" rel="alternate" type="text/html" title="제 13회 CCP 1차 팀미팅 준비" /><published>2021-06-29T00:00:00+09:00</published><updated>2021-06-29T00:00:00+09:00</updated><id>/switch/first-ccp</id><content type="html" xml:base="/switch/first-ccp/"></content><author><name>Ghost Calander</name></author><category term="Switch" /><category term="기획" /><summary type="html">음성보다는 시각적으로 협업하는 것이 좋다고 생각해서 시작한 협업 방법</summary></entry></feed>
+&lt;h2 id=&quot;결과물&quot;&gt;결과물&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/73425926/125164022-fa111900-e1ca-11eb-8c24-64569fbef828.png&quot; alt=&quot;홍보물&quot; /&gt;&lt;/p&gt;</content><author><name>Ghost Calander</name></author><category term="Ghost Calander" /><category term="기획" /><summary type="html">홍보 포스터 제작 및 웹사이트 링크 연결</summary></entry><entry><title type="html">11일차 : 운영 준비 1일차</title><link href="/ghost%20calander/daily11/" rel="alternate" type="text/html" title="11일차 : 운영 준비 1일차" /><published>2021-07-09T00:00:00+09:00</published><updated>2021-07-09T00:00:00+09:00</updated><id>/ghost%20calander/daily11</id><content type="html" xml:base="/ghost%20calander/daily11/">&lt;h2 id=&quot;오늘-한-일&quot;&gt;오늘 한 일&lt;/h2&gt;
+&lt;h3 id=&quot;포트폴리오-프레임-및-예시-파일-제작&quot;&gt;포트폴리오 프레임 및 예시 파일 제작&lt;/h3&gt;
+&lt;h3 id=&quot;제작-가이드라인-파일-및-예시-제작&quot;&gt;제작 가이드라인 파일 및 예시 제작&lt;/h3&gt;
+
+&lt;h2 id=&quot;느낀점&quot;&gt;느낀점&lt;/h2&gt;
+&lt;h3 id=&quot;머리-속으로-그렸던-그림과는-다르다&quot;&gt;머리 속으로 그렸던 그림과는 다르다&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;운영&lt;/code&gt;과 관련해서 머리 속으로 그렸던 그림에서 자동화 부분을 수동으로 진행하려고 하니 운영 매뉴얼을 만들어보니 생각보다 내가 수동으로 진행할 부분이 많이 발생한 것 같다. 물론 내가 구상한 사업 아이템이 그런 부분이 없지 않아 있어서 그런 거라고 생각하긴 하지만 말이다.&lt;/p&gt;
+
+&lt;h3 id=&quot;이-진행-프로세스를-이해시키려면&quot;&gt;이 진행 프로세스를 이해시키려면?&lt;/h3&gt;
+&lt;p&gt;사람들에게 이 프로세스 사용 과정을 이해시키려면 한 번 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Zoom 설명회&lt;/code&gt; 같은 거를 진행해서 사용자들에게 전달하는 과정을 가져야겠다.&lt;/p&gt;
+
+&lt;h3 id=&quot;제작-결과&quot;&gt;제작 결과&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.notion.so/1-ca0ea8e9195e49898070bd50bfefe37a&quot;&gt;노션 포트폴리오 사이트 - 1차&lt;/a&gt;
+제작 가이드라인 파일
+&lt;img src=&quot;https://user-images.githubusercontent.com/73425926/125086816-ee5c1e80-e106-11eb-8c98-0001035f47f0.png&quot; alt=&quot;07-09-guideline-file&quot; /&gt;&lt;/p&gt;</content><author><name>Ghost Calander</name></author><category term="Ghost Calander" /><category term="기획" /><summary type="html">포트폴리오 페이지 준비 및 제작 가이드라인 파일 제작</summary></entry><entry><title type="html">10일차 : 사이트 제작 2일차</title><link href="/ghost%20calander/daily10/" rel="alternate" type="text/html" title="10일차 : 사이트 제작 2일차" /><published>2021-07-08T00:00:00+09:00</published><updated>2021-07-08T00:00:00+09:00</updated><id>/ghost%20calander/daily10</id><content type="html" xml:base="/ghost%20calander/daily10/">&lt;h2 id=&quot;오늘-한-일&quot;&gt;오늘 한 일&lt;/h2&gt;
+&lt;h3 id=&quot;서비스-운영-준비-1차&quot;&gt;서비스 운영 준비 1차&lt;/h3&gt;
+&lt;h3 id=&quot;노션-포트폴리오-페이지-제작&quot;&gt;노션 포트폴리오 페이지 제작&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/73425926/124935984-1e40ee80-e041-11eb-95cf-0686cdd6111d.gif&quot; alt=&quot;portfolio&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/73425926/124935901-08cbc480-e041-11eb-8bf4-a038d1027920.jpg&quot; alt=&quot;07-08-daily&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;느낀점&quot;&gt;느낀점&lt;/h2&gt;
+&lt;h3 id=&quot;운영-자동화-과정에-필요한-것이-개발자다&quot;&gt;운영 자동화 과정에 필요한 것이 개발자다&lt;/h3&gt;
+&lt;p&gt;사실 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;초기 서비스 인원&lt;/code&gt;을 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;20-30명&lt;/code&gt;을 생각 중이라서 서버 없이 내가 자동화 없이 각자 포트폴리오 최신화를 할 수 있지만 추후 서비스 분야와 인원이 증가될 경우, 이것을 개인이 처리하기엔 많은 리소스가 사용될 거라고 생각한다.&lt;/p&gt;
+
+&lt;p&gt;현재 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Zapier&lt;/code&gt;를 활용한 자동화를 생각 중인데, 이거를 사용하더라도 노션에 매번 최신화하는 과정은 아마 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Python&lt;/code&gt;을 활용하는 것이 좋을 것이라고 생각된다.&lt;/p&gt;
+
+&lt;h3 id=&quot;초반에는-서비스-운영이랑-마케팅을-함께-고려하게-된다&quot;&gt;초반에는 서비스 운영이랑 마케팅을 함께 고려하게 된다&lt;/h3&gt;
+&lt;p&gt;결국 마케팅을 통해 내 제품을 사용자들에게 매혹적으로 이야기해주어야 된다고 생각한다. 그러면 결국 내 서비스 운영의 차별 포인트를 생각할 수 밖에 없다. 이 과정은 현재 내 경험으로는 동시에 진행되고 있는 것 같다.&lt;/p&gt;</content><author><name>Ghost Calander</name></author><category term="Ghost Calander" /><category term="기획" /><summary type="html">운영을 위한 노션 페이지 준비</summary></entry></feed>

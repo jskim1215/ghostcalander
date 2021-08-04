@@ -5,7 +5,7 @@ excerpt: "하고 싶은 것들이 너무 뒤섞여 있을 때, 나는 내 행동
 tags:
   - 기획
 categories:
-  - Calander
+  - Ghost Calander
 
 toc: true
 toc_sticky: true

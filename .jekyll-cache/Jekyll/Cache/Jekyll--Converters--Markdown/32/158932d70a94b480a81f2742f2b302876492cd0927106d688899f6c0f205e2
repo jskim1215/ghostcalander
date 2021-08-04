@@ -1,0 +1,18 @@
+I"h<h2 id="오늘-한-일">오늘 한 일</h2>
+<h3 id="프로덕트-기능-정리">프로덕트 기능 정리</h3>
+<h3 id="프로덕트-외관-구성">프로덕트 외관 구성</h3>
+<p><img src="https://user-images.githubusercontent.com/73425926/124357020-4bae2680-dc54-11eb-836a-c72d3b559711.jpg" alt="07-03-daily" /></p>
+
+<h2 id="개발">개발</h2>
+<h3 id="스토리보드가-아니라-프로덕트-외관-구성">스토리보드가 아니라 프로덕트 외관 구성</h3>
+<p><code class="language-plaintext highlighter-rouge">스토리보드 그리고 와이어프레임</code> 같은 단어는 IT 프로덕트에 국한된 표현이 될까봐 추후 프로그램을 진행할 때, 사용자들의 이해를 돕기 위해 프로덕트 외관 구성이라는 표현을 사용했다.</p>
+
+<h3 id="피그마-사용해서-화면-구성-결과">피그마 사용해서 화면 구성 결과</h3>
+<p><code class="language-plaintext highlighter-rouge">DISQUIET* 매거진</code> 중에서 <a href="https://www.disquiet.tech/post/disquiet-seed-round-retrospective-1">사이드프로젝트에서 시드투자 받기까지 6개월동안 디스콰이엇을 개발하면서 배운 10가지 - 1편</a>의 MVP 사이트 외관을 참고해서 비율만 일정하게 해서 MVP 사이트 제작에 사용했다.</p>
+<h4 id="랜딩-페이지">랜딩 페이지</h4>
+<p><img src="https://user-images.githubusercontent.com/73425926/124357144-f3c3ef80-dc54-11eb-8b54-7ce7d8fbf5db.png" alt="07-03-landing-page" /></p>
+<h4 id="마이-페이지">마이 페이지</h4>
+<p><img src="https://user-images.githubusercontent.com/73425926/124357155-00e0de80-dc55-11eb-9a63-7494c0a6a81f.png" alt="07-03-my-page" /></p>
+<h4 id="제출하기-페이지">제출하기 페이지</h4>
+<p><img src="https://user-images.githubusercontent.com/73425926/124357164-0d653700-dc55-11eb-8f05-2fcd379bf0d0.png" alt="07-03-submission" /></p>
+:ET
