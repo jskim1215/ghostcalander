@@ -42,6 +42,13 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Github 블로그 만들기" %}
+                        <li><a href="/categories/githubBlog" class="">Github 블로그 만들기({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
         <span class="nav__sub-title">Doodle</span>
         <ul>
                 {% for category in site.categories %}
